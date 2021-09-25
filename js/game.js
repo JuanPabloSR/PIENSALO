@@ -1,3 +1,4 @@
+//variables
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -9,7 +10,7 @@ let acceptingAnswers = true
 let score = 0
 let questionCounter = 0
 let availableQuestions = []
-
+//preguntas
 let questions = [
     {
         question: "¿Cuál es la moneda de Colombia? ",
@@ -216,7 +217,9 @@ let questions5 = [
 ]
 const SCORE_POINTS = 100 
 const MAX_QUESTIONS = 5
+
 // inicio del juego
+
 startGame = () => {
     questionCounter = 0
     score = 0
@@ -228,6 +231,7 @@ startGame = () => {
     getNewQuestion()
 }
 
+//final
 endGame = () =>{
     localStorage.setItem('mostRecentScore', score)
 
@@ -297,7 +301,7 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.dataset['number']
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
-        //cambia color fondo
+        //resalta si es correcta o incorrecta
         selectedChoice.parentElement.classList.add(classToApply)
     
         setTimeout(() => {
@@ -313,7 +317,7 @@ choices.forEach(choice => {
                 endGame()
             }
 
-        }, 1000)
+        }, 600)
 
 
         

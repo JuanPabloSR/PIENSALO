@@ -64,7 +64,7 @@ body {
 #progressBar {
   width: 20rem;
   height: 3rem;
-  border: 0.2rem solid #0bdf24;
+  border: 0.2rem solid black;
   margin-top: 2rem;
   border-radius: 50px;
   overflow: hidden;
@@ -72,7 +72,17 @@ body {
 
 #progressBarFull {
   height: 100%;
-  background: #0bdf24;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
+  background: #b4ddb4;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#b4ddb4", endColorstr="#002400",GradientType=1 );
+  /* IE6-9 */
   width: 0;
 }
 

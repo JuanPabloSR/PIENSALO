@@ -65,14 +65,19 @@ body {
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgb(11, 223, 36);
+    border: 0.2rem solid black;
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
 }
 #progressBarFull {
     height: 100%;
-    background: rgb(11, 223, 36);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
+    background: rgb(180,221,180); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgb(180,221,180) 0%, rgb(131,199,131) 17%, rgb(82,177,82) 33%, rgb(0,138,0) 67%, rgb(0,87,0) 83%, rgb(0,36,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgb(180,221,180) 0%,rgb(131,199,131) 17%,rgb(82,177,82) 33%,rgb(0,138,0) 67%,rgb(0,87,0) 83%,rgb(0,36,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgb(180,221,180) 0%,rgb(131,199,131) 17%,rgb(82,177,82) 33%,rgb(0,138,0) 67%,rgb(0,87,0) 83%,rgb(0,36,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 */
     width: 0;
 }
 
