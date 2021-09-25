@@ -1,0 +1,79 @@
+
+body {
+    color: #0E0E0E;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(234, 237, 237);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.exit-container {
+    height: 80px;
+    width: 110px;
+    border-radius: 4px;
+    background: rgb(234, 237, 237);
+    font-size: 5rem;
+    
+}
+
+.choice-container:hover, .exit-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 1);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: #0E0E0E;
+}
+
+.choice-text, .exit-text{
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11,223,36) 0%, rgb(41,232,111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230,29,29, 1) 0%, rgb(224,11,11, 1) 100%);
+}
+
+/* pantalla de visualización frontal */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center; 
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#progressBarFull {
+    height: 100%;
+    background: rgb(11, 223, 36);
+    width: 0;
+}
+
+@import 'base/responsive';
