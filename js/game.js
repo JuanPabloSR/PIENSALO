@@ -51,7 +51,7 @@ var availableQuestions = []
         availableQuestions.push(new Question("¿Cómo se llama el aeropuerto de Bogotá?", ['Rafael Nuñez', 'Jose Maria Córdova', 'Alfonso Bonilla', 'El Dorado'], 3, 1))
         availableQuestions.push(new Question("¿Cuál es la flor nacional de Colombia?", ['Flor de Azúcar', 'Heliconia', 'Orquídea', 'Begonia'], 2, 1))
         availableQuestions.push(new Question("¿Qué colombiano escribió la famosa novela romántica María?", ['Jorge Isaacs', 'Héctor Abad Faciolince', 'Gabriel García Márquez', 'Santiago Gamboa'], 0, 1))
-        availableQuestions.push(new Question("¿¿Cuál es el ave nacional de Colombia??", ['El águila arpía', 'El loro orejiamarillo', 'El colibrí', 'El cóndor de los Andes'], 3, 2))
+        availableQuestions.push(new Question("¿Cuál es el ave nacional de Colombia??", ['El águila arpía', 'El loro orejiamarillo', 'El colibrí', 'El cóndor de los Andes'], 3, 2))
         availableQuestions.push(new Question("¿En qué ciudad colombiana se encuentra la Ciudad Perdida?", ['Soacha', 'Santa Marta', 'Soledad', 'Sincelejo'], 1, 2))
         availableQuestions.push(new Question("¿Cuál es la mejor universidad de Colombia?", ['Universidad Autónoma de Bucaramanga', 'Universidad de los Andes', 'Universidad Nacional de Colombia', 'Universidad de Antioquia'], 2, 2))
         availableQuestions.push(new Question("¿Cuál es el denominado “pueblito más lindo de Colombia”, designado monumento nacional?", ['Barichara', 'Guatavita', 'Villa de Leyva', 'Guatapé'], 0, 2))

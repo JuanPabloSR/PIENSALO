@@ -7,4 +7,4 @@ Está desarrollado con html, sass, javascript aplicando la poo.
 
 
 Solo se necesita ejecutar el archivo index.html con live server en visual estudio code para empezar a jugar.
-Oh en su defecto ingresar al siguiente link:
+Oh en su defecto ingresar al siguiente link: https://piensalo.netlify.app/game.html
