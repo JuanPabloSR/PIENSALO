@@ -47,7 +47,7 @@ var availableQuestions = []
         availableQuestions.push(new Question("¿Cuál es la capital de Colombia?", ['Bogotá', 'Cali', 'Manizales', 'Bucaramanga'], 0, 0))
         availableQuestions.push(new Question("¿Cuáles son los colores de la bandera de Colombia?", ['Verde, rojo, blanco', 'Amarillo, azul, rojo', 'Amarillo, celeste, rojo', 'Amarillo, rojo, verde'], 1, 0))
         availableQuestions.push(new Question("¿Cuál es el departamento más poblado de Colombia?", ['Amazonas', 'Cundinamarca', 'Santander', 'Caquetá'], 1, 1))
-        availableQuestions.push(new Question("¿Con qué océanos limita Colombia?", ['Índico y el Ártico', 'Índico y el Atlántico', 'Pacífico y el Atlántico', 'Pacífico y el Atlántico'], 2, 1))
+        availableQuestions.push(new Question("¿Con qué océanos limita Colombia?", ['Índico y el Ártico', 'Índico y el Atlántico', 'Pacífico y el Atlántico', 'Pacífico y el Ártico'], 2, 1))
         availableQuestions.push(new Question("¿Cómo se llama el aeropuerto de Bogotá?", ['Rafael Nuñez', 'Jose Maria Córdova', 'Alfonso Bonilla', 'El Dorado'], 3, 1))
         availableQuestions.push(new Question("¿Cuál es la flor nacional de Colombia?", ['Flor de Azúcar', 'Heliconia', 'Orquídea', 'Begonia'], 2, 1))
         availableQuestions.push(new Question("¿Qué colombiano escribió la famosa novela romántica María?", ['Jorge Isaacs', 'Héctor Abad Faciolince', 'Gabriel García Márquez', 'Santiago Gamboa'], 0, 1))
