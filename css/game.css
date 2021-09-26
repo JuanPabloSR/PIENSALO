@@ -92,13 +92,17 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  .flex-column .choice-container, .container {
+  .choice-container, .container {
     min-width: 28rem;
   }
 }
 @media screen and (max-width: 480px) {
   body {
     min-width: 10rem;
+  }
+
+  .title_main {
+    font-size: 12pt;
   }
 }
 
